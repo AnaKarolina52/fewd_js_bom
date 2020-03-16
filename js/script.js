@@ -8,19 +8,19 @@ var el = document.getElementById('info');
 el.innerHTML = msg;
 alert('Current page: ' + window.location);
 
-var msg2 = '<p><b>page title: </b>' + document.title + '<br />';
-msg2 += '<b>page address: </b>' + document.URL + '<br />';
-msg2 += '<b>last modified: </b>' + document.lastModified + '</p>';
+var msg2 = '<p><b>Page title: </b>' + document.title + '<br />';
+msg2 += '<b>Page address: </b>' + document.URL + '<br />';
+msg2 += '<b>Last updated: </b>' + document.lastModified + '</p>';
 
 
 var el2 = document.getElementById('footer');
 el2.innerHTML = msg2;
 
 // Generate random number between 1 and 10
-var randomNum = Math.floor((Math.random() * 10) + 1);
+var randomNum = Math.floor((Math.random() * 1000) + 1);
 
 var el3 = document.getElementById('info');
-el3.innerHTML += '<h2>random number</h2><p>' + randomNum + '</p>';
+el3.innerHTML += '<h2>Number of infected</h2><p>' + randomNum + '</p>';
 
 // Create a variable to hold a new Date object (defaults to now)
 var today = new Date();
@@ -46,4 +46,4 @@ difference = (difference / 31556900000);
 // Create a variable called elMsg to hold the element whose id attribute has a value of message
 var elMsg = document.getElementById('message');
 // Write the message into that element.
-elMsg.textContent = Math.floor(difference) + ' years of online travel advice';
+elMsg.textContent = Math.floor(difference) + ' years of online informations and advices';

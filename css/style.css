@@ -2,7 +2,7 @@
 
 body {
   background-color: #fff;
-  background: url("../images/travelworthy-backdrop.jpg") no-repeat center center fixed;
+  background: url("../images/St.Patrick.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -11,7 +11,7 @@ body {
   font-family: 'Open Sans', sans-serif;}
 
 h1 {
-  background: #1e1b1e url("../images/travelworthy-logo.gif") no-repeat;
+  background: #1e1b1e url("../images/stpatricklogo.png") no-repeat;
   width: 230px;
   height: 180px;
   float: left;
@@ -37,7 +37,7 @@ p + h2 {
 #message {
   float: left;
   clear: left;
-  background-color: #ffb87a;
+  background-color: #f3811c;
   color: #1e1b1e;
   width:170px;
   padding: 18px 30px;
@@ -78,7 +78,7 @@ p + h2 {
 
 #rooms {
   font-size: 440%;
-  color: #ffb87a;
+  color: #f3811c;
   display: inline-block;
   margin: 0;}
 
@@ -90,14 +90,14 @@ p + h2 {
 
 #specialRate {  
   font-size: 440%;
-  color: #ffb87a;
+  color: #f3811c;
   display: inline-block;
   padding: 10px 0 20px 0;
   margin: 0;}
 
 #offerEnds {
   text-transform: uppercase;
-  color: #ffb87a;
+  color: #f3811c;
   font-size: 75%;}
 
 .true, .false {
